@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - QCKJLCWorking (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - QCKJLCWorking (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  QCKJLCWorking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  QCKJLCWorking: 383bbdaa78be5bfba8ab28ad467e0c24656ffd6c
+
+PODFILE CHECKSUM: aaa96dba36a2873bf90ba60157c6a90efdd7a6d2
+
+COCOAPODS: 1.5.3

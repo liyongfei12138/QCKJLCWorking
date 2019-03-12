@@ -1,0 +1,22 @@
+{
+  "name": "QCKJLCWorking",
+  "version": "0.1.0",
+  "summary": "A short description of QCKJLCWorking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liyongfei12138/QCKJLCWorking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liyongfei12138": "lixin@uqian.com"
+  },
+  "source": {
+    "git": "https://github.com/liyongfei12138/QCKJLCWorking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QCKJLCWorking/Classes/**/*"
+}

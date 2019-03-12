@@ -1,0 +1,6 @@
+framework module QCKJLCWorking {
+  umbrella header "QCKJLCWorking-umbrella.h"
+
+  export *
+  module * { export * }
+}
