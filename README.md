@@ -1,8 +1,8 @@
 # QCKJLCWorking
 
 
-[![Version](1.0.2)](https://cocoapods.org/pods/QCKJLCWorking)
-[![Platform](iOS)](https://cocoapods.org/pods/QCKJLCWorking)
+[![Version](1.0.2)]()
+[![Platform](iOS)]()
 
 
 ## Requirements
