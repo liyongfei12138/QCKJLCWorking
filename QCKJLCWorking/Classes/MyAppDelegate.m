@@ -91,8 +91,11 @@ typedef NS_ENUM(int, AppCode){
  
     
     AVObject *avObjct = [objects firstObject];
+   
+
     
-    NSDictionary *infoDict = [avObjct objectForKey:@"localData"];
+    NSDictionary *infoDict =  [avObjct objectForKey:@"_localData"];
+
     
     NSInteger years = [[infoDict objectForKey:@"year"] integerValue];
     
