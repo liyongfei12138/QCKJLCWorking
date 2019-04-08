@@ -1,8 +1,7 @@
 # QCKJLCWorking
 
 
-[![Version](1.0.2)]()
-[![Platform](iOS)]()
+[![Version](https://img.shields.io/cocoapods/v/QCKJLCWorking?style=flat)](https://cocoapods.org/pods/QCKJLCWorking)
 
 
 ## Requirements
