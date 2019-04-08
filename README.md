@@ -1,7 +1,7 @@
 # QCKJLCWorking
 
 
-[![Version]( https://img.shields.io/aur/version/:packageName.svg)](https://cocoapods.org/pods/QCKJLCWorking)
+[![Version]( https://img.shields.io/cocoapods/v/QCKJLCWorking.svg?style=flat)](https://cocoapods.org/pods/QCKJLCWorking)
 
 
 ## Requirements
