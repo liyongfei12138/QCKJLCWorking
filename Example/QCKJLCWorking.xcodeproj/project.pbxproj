@@ -504,6 +504,7 @@
 			baseConfigurationReference = F3524966E95930FC1E2918C7 /* Pods-QCKJLCWorking_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DYW2U73ZVC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QCKJLCWorking/QCKJLCWorking-Prefix.pch";
 				INFOPLIST_FILE = "QCKJLCWorking/QCKJLCWorking-Info.plist";
@@ -521,6 +522,7 @@
 			baseConfigurationReference = 032CC4B5FDD5C24B43C44AE4 /* Pods-QCKJLCWorking_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DYW2U73ZVC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QCKJLCWorking/QCKJLCWorking-Prefix.pch";
 				INFOPLIST_FILE = "QCKJLCWorking/QCKJLCWorking-Info.plist";

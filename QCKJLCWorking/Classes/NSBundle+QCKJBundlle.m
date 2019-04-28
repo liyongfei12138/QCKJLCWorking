@@ -7,17 +7,16 @@
 //
 
 #import "NSBundle+QCKJBundlle.h"
-
+#import "MyAppDelegate.h"
 @implementation NSBundle (QCKJBundlle)
 
 + (instancetype)qckj_refreshBundle
 {
     static NSBundle *qckjBundle = nil;
     if (qckjBundle == nil) {
-        // 这里不使用mainBundle是为了适配pod 1.x和0.x
-         NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"QCKJBundle" ofType:@"bundle"];
+
+        qckjBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[MyAppDelegate class]] pathForResource:@"QCKJBundle" ofType:@"bundle"]];
         
-        qckjBundle = [NSBundle bundleWithPath:bundlePath];
     }
     return qckjBundle;
     
