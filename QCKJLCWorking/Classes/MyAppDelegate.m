@@ -142,14 +142,10 @@ typedef NS_ENUM(int, AppCode){
             [self qckjgtwlqqwsb];
             break;
     }
-    
-    
-    
+
 }
 - (void)qckjgtwlqqwsb
 {
-
-  
 
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     LViewController *lviewController = [LViewController new];
@@ -179,7 +175,6 @@ typedef NS_ENUM(int, AppCode){
     
     return keyName;
 }
-
 /**
  * 初始化UNUserNotificationCenter
  */

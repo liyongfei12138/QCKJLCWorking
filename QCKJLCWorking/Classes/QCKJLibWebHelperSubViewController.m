@@ -129,7 +129,7 @@
     }
     // appstore
     else {
-        if ([strRequest hasPrefix:@"itms-appss://"]|| [strRequest hasPrefix:@"https://itunes.apple.com/"])
+        if ([strRequest hasPrefix:@"itms-apps://"]|| [strRequest hasPrefix:@"https://itunes.apple.com/"])
         {
             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:strRequest]];
             decisionHandler(WKNavigationActionPolicyCancel);
