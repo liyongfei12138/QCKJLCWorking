@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QCKJLCWorking'
-  s.version          = '1.1.4'
+  s.version          = '1.2.0'
   s.summary          = 'just a demo'
 
   
@@ -29,7 +29,5 @@ TODO: Add long description of the pod here.
     
   s.dependency 'WebViewJavascriptBridge'
   s.dependency 'AVOSCloud'
-  #, '~>11.5.2'
-  
-  
+
 end

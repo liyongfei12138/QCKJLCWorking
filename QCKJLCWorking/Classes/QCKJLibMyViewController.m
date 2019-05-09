@@ -92,7 +92,7 @@
         
         NSString *string = [data objectForKey:@"url"];
         //如果是跳转到appstore或者企业签
-        if ([string hasPrefix:@"itms-appss://"] || [string hasPrefix:@"itms-services://"] || [string hasPrefix:@"https://itunes.apple.com/"] )
+        if ([string hasPrefix:@"itms-appss://"] || [string hasPrefix:@"https://itunes.apple.com/"] )
         {
             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:string]];
             
